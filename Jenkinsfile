@@ -2,7 +2,6 @@ pipeline {
     agent any
     tools {
         maven 'MAVEN'
-
     }
 
     stages {
@@ -42,8 +41,7 @@ pipeline {
                                 fi
                  '''
                    }
-                }
-            }
+             }
 
             stage('CODE ANALYSIS with SONARQUBE') {
                 environment {
