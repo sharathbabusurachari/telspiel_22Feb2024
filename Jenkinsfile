@@ -53,7 +53,7 @@ pipeline {
                                -Dsonar.projectName=saswat_telspiel_project-repo \
                                -Dsonar.projectVersion=1.0 \
                                -Dsonar.sources=$WORKSPACE/src/ \
-                               -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/ \
+                               -Dsonar.java.binaries=target/test-classes/com/ \
                                -Dsonar.junit.reportsPath=target/surefire-reports/ \
                                -Dsonar.jacoco.reportsPath=target/jacoco.exec \
                                -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml'''
